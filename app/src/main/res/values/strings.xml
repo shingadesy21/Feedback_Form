@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Feedback Form</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="description_in_detail">Description In Detail</string>
+    <string name="improvements">Improvemnts</string>
+    <string name="mention_impr">Mention Improvements</string>
+    <string name="send_btn">SEND</string>
+    <string name="issue">Issue / Bug</string>
+    <string name="suggesion">Suggest / Improve</string>
+</resources>

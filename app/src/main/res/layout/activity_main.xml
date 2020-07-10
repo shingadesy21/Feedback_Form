@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+  <RadioGroup
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+  <RadioButton
+      style="@style/radio_btn"
+      android:text="@string/issue"/>
+  <RadioButton
+      style="@style/radio_btn"
+      android:text="@string/suggesion"/>
+
+  </RadioGroup>
+
+  <!--for title field-->
+  <RelativeLayout
+      style="@style/relative_layout"
+      android:layout_height="60dp">
+    <EditText
+        style="@style/edit_text"
+        android:background="@drawable/border"
+        android:singleLine="true"/>
+    <TextView
+        style="@style/text_view"
+        android:background="#ffffff"
+        android:text="@string/title"/>
+  </RelativeLayout>
+
+
+  <!--for description field-->
+  <RelativeLayout
+      style="@style/relative_layout"
+      android:layout_height="100dp">
+    <EditText
+        style="@style/edit_text"
+        android:background="@drawable/border"
+        android:hint="@string/description_in_detail"
+        />
+    <TextView
+        style="@style/text_view"
+        android:background="#ffffff"
+        android:text="@string/description" />
+  </RelativeLayout>
+
+
+  <!--for iprovement field-->
+  <RelativeLayout
+      style="@style/relative_layout"
+      android:layout_height="200dp">
+    <EditText
+        style="@style/edit_text"
+        android:background="@drawable/border"
+        android:paddingLeft="5dp"
+        android:hint="@string/mention_impr" />
+    <TextView
+        style="@style/text_view"
+        android:background="#ffffff"
+        android:text="@string/improvements"/>
+  </RelativeLayout>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/cust_button"
+      android:layout_marginTop="10dp"
+      android:text="@string/send_btn"
+      android:textColor="@color/white"/>
+</LinearLayout>
